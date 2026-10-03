@@ -1,0 +1,25 @@
+.label {
+    -fx-background-color: #dce9ff;
+    -fx-background-insets: 0 7px 0 7px;
+    -fx-background-radius: 16px 16px 4px 16px;
+    -fx-border-color: #a9c4ef;
+    -fx-border-insets: 0 7px 0 7px;
+    -fx-border-radius: 16px 16px 4px 16px;
+    -fx-border-width: 1px;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 10px;
+    -fx-text-fill: #152238;
+}
+
+.reply-label {
+    -fx-background-color: #fff0c7;
+    -fx-background-radius: 16px 16px 16px 4px;
+    -fx-border-color: #edcf7d;
+    -fx-border-radius: 16px 16px 16px 4px;
+}
+
+#displayPicture {
+    -fx-effect: dropshadow(gaussian, rgba(23, 34, 59, 0.24), 8, 0.2, 0, 2);
+    -fx-scale-x: 0.78;
+    -fx-scale-y: 0.78;
+}
